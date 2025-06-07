@@ -1,0 +1,12 @@
+.homepage-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 20px;
+  }
+  
