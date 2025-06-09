@@ -18,7 +18,7 @@ body{
 }
 
 .container{
-    background-color: #fff;
+    background-color:#8b5858;
     border-radius: 30px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
     position: relative;
@@ -45,6 +45,7 @@ body{
     text-decoration: none;
     margin: 15px 0 10px;
 }
+/* #512da8 */
 
 .container button{
     background-color: #512da8;
@@ -66,7 +67,7 @@ body{
 }
 
 .container form{
-    background-color: #fff;
+    background-color: #8b5858;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -162,8 +163,9 @@ body{
 
 .toggle{
     background-color: #512da8;
+    /* background-color: #6b739e; */
     height: 100%;
-    background: linear-gradient(to right, #5c6bc0, #512da8);
+    background: linear-gradient(to right, #031b0c, #c20335);
     color: #fff;
     position: relative;
     left: -100%;

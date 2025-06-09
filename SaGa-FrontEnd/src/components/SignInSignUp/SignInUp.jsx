@@ -28,6 +28,7 @@ const SignInUp = () => {
           <input type="text" placeholder="Name" />
           <input type="email" placeholder="Email" />
           <input type="password" placeholder="Password" />
+          <input type="text"  placeholder='Phone Number'/>
           <button type="submit" >Sign Up</button>
         </form>
       </div>
@@ -51,12 +52,12 @@ const SignInUp = () => {
         <div className="toggle">
           <div className="toggle-panel toggle-left">
             <h1>Welcome Back!</h1>
-            <p>Enter your personal details to use all site features</p>
+            <p>Submit your personal details to gain complete access to the site.</p>
             <button className="hidden" id="login" onClick={toggleLoginActive}>Sign In</button>
           </div>
           <div className="toggle-panel toggle-right">
             <h1>Hello, Friend!</h1>
-            <p>Register with your personal details to use all site features</p>
+            <p>Join now to enjoy all the functionalities we offer.</p>
             <button className="hidden" id="register" onClick={toggleRegisterActive}>Sign Up</button>
           </div>
         </div>
